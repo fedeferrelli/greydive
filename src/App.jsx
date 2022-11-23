@@ -1,12 +1,12 @@
-
 function App() {
-
   return (
-    <div >
+    <div>
       <h1>greydive challenge</h1>
-      <a href="https://portafolio-fedeferrelli.vercel.app/" target="_blank">Fede Mazza</a>
+      <a href="https://portafolio-fedeferrelli.vercel.app/" target="_blank">
+        Fede Mazza
+      </a>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
