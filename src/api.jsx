@@ -1,6 +1,6 @@
 const apiCall = {
   fetch: async () => {
-    const request = await fetch("/public/db.json");
+    const request = await fetch("https://greydive-challenge-azure.vercel.app/db.json");
     const response = await request.json();
     return response;
   },
