@@ -2,6 +2,7 @@ import { DataProvider } from "./context/Context";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Links from "./components/Links";
+import ShowTest from "./components/ShowTest";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Links />} />
+            <Route path="/:testerNumber" element={<ShowTest />} />
           </Routes>
         </Router>
       </div>

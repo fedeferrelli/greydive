@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 
 function Links() {
   const { data } = useContext(DataContext);
-  console.log(data);
 
   return (
     <>
