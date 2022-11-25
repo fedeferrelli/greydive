@@ -16,7 +16,7 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Links />} />
-            <Route path="/:testerNumber" element={<ShowTest />} />
+            <Route path="/clientes/:testerNumber" element={<ShowTest />} />
           </Routes>
         </Router>
       </div>

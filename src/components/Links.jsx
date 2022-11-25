@@ -10,7 +10,7 @@ function Links() {
     <>
       {data?.map((data, i) => (
         <li key={i}>
-          <Link to={`/tester-${i + 1}`}> Tester {i + 1}</Link>
+          <Link to={`/clientes/tester-${i + 1}`}> Tester {i + 1}</Link>
         </li>
       ))}
     </>
