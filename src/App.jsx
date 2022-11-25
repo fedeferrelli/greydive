@@ -1,5 +1,5 @@
 import { DataProvider } from "./context/Context";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, HashRouter } from "react-router-dom";
 
 import Links from "./components/Links";
 import ShowTest from "./components/ShowTest";
@@ -13,12 +13,12 @@ function App() {
           Fede Mazza
         </a>
 
-        <Router>
+        <HashRouter>
           <Routes>
             <Route path="/" element={<Links />} />
             <Route path="/clientes/:testerNumber" element={<ShowTest />} />
           </Routes>
-        </Router>
+        </HashRouter>
       </div>
     </DataProvider>
   );
