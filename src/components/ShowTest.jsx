@@ -14,7 +14,7 @@ function ShowTest() {
   useEffect(() => {
     const setTester = () => {
       const tester = testerNumber.split("-");
-      setDataToShow(data[+tester[tester.length - 1] - 1]);
+      setDataToShow(data[+testerNumber]);
       console.log(tester);
     };
     typeof(data) !== 'undefined' && setTester();
